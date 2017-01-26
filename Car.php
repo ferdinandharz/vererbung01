@@ -1,12 +1,9 @@
 <?php
 
 class Car{
-	// private property $model
-	protected $model;
-	
-	// public setter for $model
-	public function setModel($model){
-		$this->model = $model;
+	// public method, that returns "beep"
+	public function hello(){
+		return "beep";
 	}
 }
 
