@@ -2,11 +2,9 @@
 require_once('Car.php');
 
 class SportsCar extends Car {
-	// private property in the childclass
-	private $style = 'fast and furious';
- 
-	public function driveItWithStyle(){
-		return 'Drive a '  . $this -> getModel() . ' <i>' . $this -> style . '</i>';
+	//Has no problem to get a protected property that belongs to the parent
+	public function hello(){
+		return "beep! I am a <i>" . $this -> model . "</i><br />";
 	}
 }
 

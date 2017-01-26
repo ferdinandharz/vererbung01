@@ -11,6 +11,6 @@ $sportsCar1 = new SportsCar();
 $sportsCar1->setModel('Mercedes Benz');
   
 //Use another method that the child class inherited from the parent class
-echo $sportsCar1->driveItWithStyle();
+echo $sportsCar1->hello();
 
 ?>
