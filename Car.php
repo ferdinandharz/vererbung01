@@ -6,12 +6,12 @@ class Car{
 	
 	// public setter for $model
 	public function setModel($model){
-		$this -> model = $model;
+		$this->model = $model;
 	}
  
-	// public output method
-	public function hello(){
-		return "beep! I am a <i>" . $this -> model . "</i><br />";
+	// public getter for $model
+	public function getModel(){
+		return $this->model;
 	}
 }
 
